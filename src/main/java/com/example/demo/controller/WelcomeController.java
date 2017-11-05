@@ -11,7 +11,7 @@ public class WelcomeController {
 
     @RequestMapping("/myPage")
     public String hello(Model model) {
-         String w = "Welcome to TI courses";
+         String w = "Welcome to TI courses man";
         model.addAttribute("welcome", w);
         return "welcome";
     }
